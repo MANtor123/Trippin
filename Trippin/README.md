@@ -1,3 +1,3 @@
 # Trippin
 
-Trippin in Mocha
+Trippin Modules and Tests
