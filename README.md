@@ -2,9 +2,9 @@
 
 ## Trippin Modules and Tests
 
-```
 `Now let’s use TDD to write code that answers these questions.`
-### What, how much?
+```
+What, how much?
 
 Find the total of one attribute in a list of objects
 How many trips did all the taxis make?
