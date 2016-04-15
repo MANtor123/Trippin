@@ -3,9 +3,8 @@ module.exports = function(listOfEarnings, regNumber){
   listOfEarnings.forEach(function(earning){
     if(earning.RegistrationNumber === regNumber){
       result = result + earning.Fare * earning.Trips;
-
     }
   });
-  console.log(result)
+  // console.log(result)
   return result;
 };

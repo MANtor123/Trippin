@@ -5,6 +5,6 @@ module.exports = function(listOfRoutes, regNumber){
       routesList.push(route.Route)
     }
   })
-  console.log(routesList)
+  // console.log(routesList)
   return routesList;
 }

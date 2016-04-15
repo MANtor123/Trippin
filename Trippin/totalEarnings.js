@@ -1,6 +1,5 @@
 module.exports = function(earningsList){
   var totalEarnings = [];
-
   earningsList.map(function(taxi){
     var result = {
       RegistrationNumber : taxi.RegistrationNumber,
