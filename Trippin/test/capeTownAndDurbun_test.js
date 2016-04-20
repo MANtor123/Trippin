@@ -147,23 +147,15 @@ describe('-Cape Town Statistics->>>', function(){
     assert.deepEqual(totalEarnings(capeTownTaxis),
     [{
       RegistrationNumber : 'CA 123 456',
-      Earnings : 117
+      Earnings : 249
     },
     {
       RegistrationNumber : 'CA 234 567',
       Earnings : 132
     },
     {
-      RegistrationNumber : 'CA 123 456',
-      Earnings : 132
-    },
-    {
       RegistrationNumber : 'CA 345 678',
-      Earnings : 104
-    },
-    {
-      RegistrationNumber : 'CA 345 678',
-      Earnings : 130
+      Earnings : 234
     }]
   )
   })
@@ -217,39 +209,15 @@ describe('-Cape Town Statistics->>>', function(){
       assert.deepEqual(totalEarnings(durbanTaxis),
       [{
         RegistrationNumber : 'ND 123 456',
-        Earnings : 98
+        Earnings : 218
       },
       {
         RegistrationNumber : 'ND 234 567',
-        Earnings : 126
+        Earnings : 387
       },
       {
         RegistrationNumber : 'ND 345 678',
-        Earnings : 112
-      },
-      {
-        RegistrationNumber : 'ND 234 567',
-        Earnings : 126
-      },
-      {
-        RegistrationNumber : 'ND 234 567',
-        Earnings : 63
-      },
-      {
-        RegistrationNumber : 'ND 345 678',
-        Earnings : 126
-      },
-      {
-        RegistrationNumber : 'ND 123 456',
-        Earnings : 120
-      },
-      {
-        RegistrationNumber : 'ND 234 567',
-        Earnings : 72
-      },
-      {
-        RegistrationNumber : 'ND 345 678',
-        Earnings : 280
+        Earnings : 518
       }]
     )
     })
